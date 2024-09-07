@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home {
+    width:  100%;
+    height: 100vh;
+    background: white;
+    position: absolute;
+    background-size: cover;
+}
+.header {
+    width: 100%;
+    height: 70px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.logo a {
+    color: orangered;
+    margin-left: 50px;
+    font-size: 30px;
+    font-family: cursive;
+    text-decoration: none;
+
+}
+nav {
+    flex: 10;
+    text-align: right;
+}
+nav ul {
+    display: inline-block;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 70px;
+    margin-top: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+nav ul li a:hover {
+    color: deeppink;
+}
+
+.blackmoon img {
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+.row {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col {
+    flex-basis: 50%;
+    min-width: 500px;
+}
+.col h1 {
+    margin-left: 200px;
+    font-size: 70px;
+    transition: 2s;
+}
+
+.col p {
+    margin-left: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    transition: 3s;
+}
+.col button {
+    margin-left: 230px;
+    font-size: 20px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+    color: deeppink;
+    background: bisque;
+    border: 3px solid black;
+    transition: 4s;
+}
+.col img {
+    margin-left: 90px;
+    height: 550px;
+    transition: 3s;
+}
